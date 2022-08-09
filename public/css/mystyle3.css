@@ -1,0 +1,228 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 1.5rem;
+}
+
+/* Search Modal */
+#search-modal{
+    padding-left: 17px;
+}
+.search-modal{
+    max-width:900px;
+}
+.search-modal button{
+    margin-left:5%;
+    margin-right:5%;
+    height:50px;
+    width:90%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    height: 26vh;
+    position: relative;
+}
+.jumbotron .jumbotron-text {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+.jumbotron .jumbotron-text span {
+    font-weight: 500;
+}
+
+/* Panel kategori */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -10vh;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info-panel img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.info-panel h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    margin-top:4%;
+}
+.info-panel p {
+    font-size: 14px;
+    color: #acacac;
+    font-weight: 200;
+    display:none;
+}
+
+/* List Post */
+.recent {
+    margin-top: 60px;
+}
+.section-style{
+    margin-top:40px;
+}
+.konten {
+    margin-top: 50px;
+}
+.konten img {
+    max-width:80%;
+    max-height: 280px;
+    background-size: cover;
+}
+.konten h4 {
+    font-weight: 200;
+    text-transform: uppercase;
+    color: black;
+}
+.konten p {
+    font-weight: 200;
+    color: black;
+}
+
+.konten h5 {
+    font-weight: normal;
+    color: black;
+}
+
+/* Isi Post */
+.isi-post-style .judul-post{
+    font-size: 1.5rem;
+}
+.isi-post-style .gambar-post{
+    max-width: 100%;
+}
+.isi-post-style img{
+    max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    margin-top: 8vh;
+}
+.footer p {
+    color: #acacac;
+    font-size: 18px;
+}
+
+/* Small Tablet */
+@media (min-width: 576px) {
+    .jumbotron {
+        height: 28vh;
+    }
+    .jumbotron .jumbotron-text{
+        margin-top: -5px;
+    }
+    .konten img{
+        max-width: 420px;
+    }
+    .isi-post-style .judul-post{
+        font-size: 1.6rem;
+    }
+    .isi-post-style .gambar-post{
+        max-width:400px;
+    }
+    .isi-post-style img{
+        max-width:400px;
+    }
+}
+
+/* Big Tablet */
+@media (min-width: 768px) {
+    .jumbotron {
+        height: 34vh;
+    }
+    .jumbotron .jumbotron-text {
+        font-size: 2.5rem;
+    }
+    .info-panel{
+        margin-top: -12vh;
+    }
+    .info-panel p {
+        display:contents;
+    }
+    .info-panel h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        margin-top:1%;
+        margin-bottom:0;
+    }
+    .info-panel img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .isi-post-style .judul-post{
+        font-size: 1.7rem;
+    }
+    .isi-post-style img{
+        max-width:540px;
+    }
+
+}
+/* Desktop */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid rgb(36, 36, 177);
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+        height: 40vh;
+    }
+    .jumbotron .jumbotron-text {
+        margin-top:10px;
+        font-size: 3rem;
+    }
+    .info-panel{
+        margin-top: -14vh;
+    }
+    .info-panel img {
+        width: 60px;
+        height: 60px;
+    }
+    .fitur {
+        max-width:80vw;
+        margin: 0 auto;
+        float:none;
+    }
+    .isi-post-style .judul-post{
+        font-size: 1.8rem;
+    }
+}
+/* Wide Desktop */
+@media (min-width: 1700px) {
+    .jumbotron .jumbotron-text {
+        margin-top:7vh;
+        font-size: 3.5rem;
+    }
+    .info-panel{
+        margin-top: -9vh;
+        height:110px;
+    }
+    .isi-post-style .judul-post{
+        font-size: 1.9rem;
+    }
+}
