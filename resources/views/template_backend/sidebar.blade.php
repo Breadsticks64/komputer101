@@ -8,7 +8,7 @@
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
-            <li class="active"><a class="nav-link" href="{{ route('home') }}"><i class="fas fa-home"></i><span>Dashboard</span></a></li>
+            <li class="active"><a class="nav-link" href="{{ route('admin') }}"><i class="fas fa-home"></i><span>Dashboard</span></a></li>
             <li class="menu-header">Kelola Post</li>
             <li class="nav-item dropdown">
                 <a href="" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-book-open"></i> <span>Post</span></a>
